@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mokka Műhely – kis szériában, gondosan pörkölt specialty kávék. Ismerd meg kávéinkat és a pörkölés folyamatát!">
+  <meta name="theme-color" content="#213e32">
+  <title>Mokka Műhely | Kézműves kávépörkölő manufaktúra</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a href="#tartalom" class="skip-link">Ugrás a tartalomra</a>
+
+  <div class="topbar"><span class="topbar-dot" aria-hidden="true"></span> KIS SZÉRIÁS PÖRKÖLÉS <span aria-hidden="true">✳</span> NAGY SZERETETTEL KÉSZÜL</div>
+
+  <header class="site-header" id="fejlec">
+    <div class="container header-content">
+      <a class="brand" href="#kezdolap" aria-label="Mokka Műhely – vissza a kezdőlapra">
+        <span class="brand-symbol" aria-hidden="true"><span class="brand-bean"></span></span>
+        <span class="brand-name">mokka<span>műhely</span><small>KÁVÉPÖRKÖLŐ MANUFAKTÚRA</small></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Fő navigáció">
+        <a href="#kaveink">Kávéink</a>
+        <a href="#folyamat">A pörkölés</a>
+        <a href="#rolunk">Rólunk</a>
+        <a href="#kapcsolat">Kapcsolat</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="cart-toggle" id="cart-toggle" aria-label="Kosár megnyitása, 0 termék" aria-haspopup="dialog">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.1 10.4a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+          <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Menü megnyitása" aria-controls="main-nav" aria-expanded="false" type="button"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="tartalom">
+    <section class="hero" id="kezdolap" aria-labelledby="hero-heading">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow light-eyebrow"><span class="eyebrow-line"></span> A REGGELEK ÚJ KEDVENCE</p>
+          <h1 id="hero-heading">A jó kávé<br>nem véletlen.<br><em>Mi megpörköljük.</em></h1>
+          <p class="hero-description">Kis tételben pörkölt, gondosan válogatott kávészemek. Mert hisszük, hogy minden csészében ott lehet valami különleges.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#kaveink">Fedezd fel a kávéinkat <span aria-hidden="true">↗</span></a>
+            <a class="text-link light-link" href="#folyamat">Így készül <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-emblem" aria-hidden="true">✳</div>
+            <div><strong>Frissen. Gondosan. Neked.</strong><span>Kézműves szemlélet minden pörkölésben.</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illusztráció: Mokka Műhely kézműves kávécsomagolás" role="img">
+          <div class="art-halo halo-outer"></div>
+          <div class="art-halo halo-inner"></div>
+          <span class="art-star art-star-one" aria-hidden="true">✳</span>
+          <span class="art-star art-star-two" aria-hidden="true">✦</span>
+          <div class="hero-bag bag-shape">
+            <div class="bag-fold"></div>
+            <div class="bag-sticker">
+              <span class="bag-small">KIS SZÉRIÁS KÁVÉ</span>
+              <span class="bag-symbol"><span class="bean-icon"></span></span>
+              <span class="bag-brand">mokka<br>műhely.</span>
+              <span class="bag-rule"></span>
+              <span class="bag-roast">SLOW ROAST<br>BIG FLAVOUR</span>
+              <span class="bag-weight">250 g • SZEMES KÁVÉ</span>
+            </div>
+          </div>
+          <div class="floating-note"><span class="note-icon" aria-hidden="true">✺</span><span><strong>Jó ízekre hangolva</strong><small>Felfedezés minden kortyban</small></span></div>
+          <div class="bean-decoration bean-dec-one" aria-hidden="true"></div>
+          <div class="bean-decoration bean-dec-two" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="hero-bottom-mark" aria-hidden="true">KÁVÉ. KÍVÁNCSISÁG. KARAKTER.</div>
+    </section>
+
+    <section class="values-bar" aria-label="Értékeink">
+      <div class="container values-inner">
+        <div><span class="value-icon" aria-hidden="true">✧</span> Gondosan válogatott szemek</div>
+        <span class="values-separator" aria-hidden="true"></span>
+        <div><span class="value-icon" aria-hidden="true">☀</span> Kis szériás pörkölés</div>
+        <span class="values-separator" aria-hidden="true"></span>
+        <div><span class="value-icon" aria-hidden="true">♡</span> Szenvedéllyel készül</div>
+      </div>
+    </section>
+
+    <section class="section coffees-section" id="kaveink" aria-labelledby="coffees-heading">
+      <div class="container">
+        <div class="section-heading product-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> TALÁLD MEG A SAJÁT ÍZED</p><h2 id="coffees-heading">Ismerd meg a <em>kávéinkat.</em></h2></div>
+          <p>Gyümölcsös és könnyed? Vagy mély, csokoládés karakter? Nálunk minden hangulathoz találsz egy csészével.</p>
+        </div>
+
+        <div class="filter-controls" role="group" aria-label="Kávék szűrése pörkölés szerint">
+          <button type="button" class="filter-button is-active" data-filter="mind" aria-pressed="true">Összes kávé</button>
+          <button type="button" class="filter-button" data-filter="vilagos" aria-pressed="false">Világos pörkölés</button>
+          <button type="button" class="filter-button" data-filter="kozepes" aria-pressed="false">Közepes pörkölés</button>
+          <button type="button" class="filter-button" data-filter="sotet" aria-pressed="false">Sötét pörkölés</button>
+          <span class="filter-count" id="filter-count" aria-live="polite">10 kávé</span>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+          <article class="product-card" id="product-sidama" data-roast="vilagos">
+            <div class="product-image product-image-peach">
+              <span class="product-label">GYÜMÖLCSÖS KEDVENC</span>
+              <img src="images/sidama-bloom.webp"
+                alt="Mokka Műhely Sidama Bloom"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">ETIÓPIA <span>·</span> VILÁGOS</div><h3>Sidama Bloom</h3><p>Jázmin, citrus, édes bogyós gyümölcsök. Egy igazán élénk reggel.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 1 az 3-ból"><b></b><i></i><i></i></span></div><div class="product-bottom"><strong>4 490 Ft</strong><button class="add-to-cart" type="button" data-cart-add="sidama" aria-label="Sidama Bloom hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-huila" data-roast="kozepes">
+            <div class="product-image product-image-sage">
+              <span class="product-label">KÖZÖNSÉGKEDVENC</span>
+              <img src="images/huila-harmony.webp"
+                alt="Mokka Műhely Huila Harmony"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">KOLUMBIA <span>·</span> KÖZEPES</div><h3>Huila Harmony</h3><p>Karamell, piros alma és lágy csokoládé. Harmónia egy csészében.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 2 az 3-ból"><b></b><b></b><i></i></span></div><div class="product-bottom"><strong>4 290 Ft</strong><button class="add-to-cart" type="button" data-cart-add="huila" aria-label="Huila Harmony hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-cerrado" data-roast="sotet">
+            <div class="product-image product-image-sand">
+              <span class="product-label">ESPRESSO KEDVELŐKNEK</span>
+                <img src="images/cerrado-velvet.webp"
+                  alt="Mokka Műhely Cerrado Velvet"
+                  class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">BRAZÍLIA <span>·</span> SÖTÉT</div><h3>Cerrado Velvet</h3><p>Étcsokoládé, pörkölt mogyoró és telt test. Klasszikus, gazdag ízvilág.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 3 az 3-ból"><b></b><b></b><b></b></span></div><div class="product-bottom"><strong>3 990 Ft</strong><button class="add-to-cart" type="button" data-cart-add="cerrado" aria-label="Cerrado Velvet hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-house" data-roast="kozepes">
+            <div class="product-image product-image-moss">
+              <span class="product-label">A MŰHELY KEDVENCE</span>
+              <img
+                src="images/house-blend.webp"
+                alt="Mokka Műhely House Blend kávé"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">SAJÁT KEVERÉK <span>·</span> KÖZEPES</div><h3>House Blend</h3><p>Tejcsokoládé, mogyoró és egy leheletnyi karamell. Mindennapokra hangolva.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 2 az 3-ból"><b></b><b></b><i></i></span></div><div class="product-bottom"><strong>4 190 Ft</strong><button class="add-to-cart" type="button" data-cart-add="house" aria-label="House Blend hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-yirgacheffe" data-roast="vilagos">
+            <div class="product-image product-image-moss">
+              <span class="product-label">AFRIKA SPECIALITÁSA</span>
+              <img
+                src="images/ethiopia-yirgacheffe.webp"
+                alt="Etiópia Yirgacheffe kávé"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">ETIÓPIA <span>·</span> VILÁGOS</div><h3>Ethiopia Yirgacheffe</h3><p>Virágos, citrusos, gyümölcsös és teára emlékeztető</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 1 a 3-ból"><b></b><i></i><i></i></span></div><div class="product-bottom"><strong>4 390 Ft</strong><button class="add-to-cart" type="button" data-cart-add="yirgacheffe" aria-label="Etiópia Yirgacheffe hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+          <article class="product-card" id="product-colombia" data-roast="kozepes">
+            <div class="product-image product-image-moss">
+              <span class="product-label">KOLUMBIA KINCSE</span>
+              <img
+                src="images/colombia-supremo.webp"
+                alt="Colombia Supremo kávé"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">KOLUMBIA <span>·</span> KÖZEPES</div><h3>Colombia Supremo</h3><p>Kiegyensúlyozott, karamellás, csokoládés és finoman gyümölcsös ízvilágú arabica kávé.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 2 a 3-ból"><b></b><b></b><i></i></span></div><div class="product-bottom"><strong>3 990 Ft</strong><button class="add-to-cart" type="button" data-cart-add="colombia" aria-label="Colombia Supremo hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-brazil" data-roast="kozepes">
+            <div class="product-image product-image-sand">
+              <span class="product-label">BRAZÍLIA KLASSZIKUSA</span>
+              <img
+                src="images/brazil-santos.webp"
+                alt="Brazil Santos kávé"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">BRAZÍLIA <span>·</span> KÖZEPES</div><h3>Brazil Santos</h3><p>Lágy, mogyorós és tejcsokoládés ízvilág, alacsony savassággal. Tökéletes választás a klasszikus kávék kedvelőinek.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 2 a 3-ból"><b></b><b></b><i></i></span></div><div class="product-bottom"><strong>3 290 Ft</strong><button class="add-to-cart" type="button" data-cart-add="brazil" aria-label="Brazil Santos hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-espresso" data-roast="sotet">
+            <div class="product-image product-image-moss">
+              <span class="product-label">AZ IGAZI ESPRESSO</span>
+              <img
+                src="images/espresso-blend.webp"
+                alt="Espresso Blend kávé"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">SAJÁT KEVERÉK <span>·</span> SÖTÉT</div><h3>Espresso Blend</h3><p>Intenzív, testes arabica és robusta keverék. Kakaós, fűszeres ízjegyek és karakteres lecsengés minden csészében.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 3 a 3-ból"><b></b><b></b><b></b></span></div><div class="product-bottom"><strong>3 490 Ft</strong><button class="add-to-cart" type="button" data-cart-add="espresso" aria-label="Espresso Blend hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-vanilla" data-roast="kozepes">
+            <div class="product-image product-image-peach">
+              <span class="product-label">ÉDES KÜLÖNLEGESSÉG</span>
+              <img
+                src="images/vanilla-hazelnut.webp"
+                alt="Vanilla Hazelnut kávé"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">ÍZESÍTETT KÁVÉ <span>·</span> KÖZEPES</div><h3>Vanilla Hazelnut</h3><p>Vaníliás és pörkölt mogyorós aromákkal gazdagított kávé, finom karamellás karakterrel. Egy igazi desszertélmény.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 2 a 3-ból"><b></b><b></b><i></i></span></div><div class="product-bottom"><strong>3 790 Ft</strong><button class="add-to-cart" type="button" data-cart-add="vanilla" aria-label="Vanilla Hazelnut hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+          <article class="product-card" id="product-decaf" data-roast="kozepes">
+            <div class="product-image product-image-sage">
+              <span class="product-label">KOFFEIN NÉLKÜL</span>
+              <img
+                src="images/decaf-comfort.webp"
+                alt="Decaf Comfort koffeinmentes kávé"
+                class="coffee-photo">
+              <span class="illustration-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="product-info"><div class="product-overline">KOFFEINMENTES <span>·</span> KÖZEPES</div><h3>Decaf Comfort</h3><p>Kiegyensúlyozott, koffeinmentes arabica kávé, karamellás és diós ízjegyekkel. A kávézás öröme a nap bármely szakában.</p><div class="product-meta"><span>250 g / szemes</span><span class="roast-dots" aria-label="Pörkölési erősség: 2 a 3-ból"><b></b><b></b><i></i></span></div><div class="product-bottom"><strong>3 990 Ft</strong><button class="add-to-cart" type="button" data-cart-add="decaf" aria-label="Decaf Comfort hozzáadása a kosárhoz">Kosárba <span aria-hidden="true">+</span></button></div></div>
+          </article>
+
+        </div>
+        <p class="demo-disclaimer">* A termékek és az árak egy egyetemi projekt fiktív adatai.</p>
+      </div>
+    </section>
+
+    <section class="finder-section" aria-labelledby="finder-heading" id="kavevalaszto">
+      <div class="container finder-layout">
+        <div class="finder-intro"><span class="finder-sparkle" aria-hidden="true">✳</span><p class="eyebrow light-eyebrow">SEGÍTÜNK VÁLASZTANI</p><h2 id="finder-heading">Milyen ízű a <em>te reggeled?</em></h2><p>Válaszd ki a kedvenc ízvilágodat, és megmutatjuk, mely kávéink illenek hozzád.</p></div>
+        <div class="finder-panel"><p class="finder-question">Melyik ízvilágot szereted leginkább?</p>
+          <div class="preference-options" role="group" aria-label="Kedvenc ízvilág kiválasztása">
+            <button type="button" class="preference-option" data-preference="gyumolcsos" aria-pressed="false"><span aria-hidden="true">🍊</span> Gyümölcsös, friss</button>
+            <button type="button" class="preference-option" data-preference="lagy" aria-pressed="false"><span aria-hidden="true">🍯</span> Lágy, édes</button>
+            <button type="button" class="preference-option" data-preference="intenziv" aria-pressed="false"><span aria-hidden="true">🍫</span> Intenzív, csokis</button>
+          </div>
+          <button type="button" id="finder-button" class="button button-orange" disabled>Mutasd a kávéajánlásokat <span aria-hidden="true">↗</span></button>
+          <div id="finder-result" class="finder-result" role="status" aria-live="polite" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="folyamat" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section-heading process-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> A SZEMEKTŐL A CSÉSZÉIG</p><h2 id="process-heading">Így lesz belőle <em>élmény.</em></h2></div><p>A jó kávé mögött figyelem, szakértelem és sok-sok kísérletezés áll. Mi ezekben hiszünk.</p></div>
+        <div class="process-grid">
+          <article class="process-card"><span class="step-count">01 / 04</span><div class="process-icon" aria-hidden="true"><svg viewBox="0 0 70 70" fill="none"><path d="M35 55c-13-8-18-16-17-26 1-10 9-17 17-18 8 1 16 8 17 18 1 10-4 18-17 26Z" stroke="currentColor" stroke-width="2.8"/><path d="M35 16c-8 14 8 19 0 35" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></svg></div><h3>Válogatás</h3><p>Karakteres termőterületekről származó, gondosan válogatott zöld kávészemekkel kezdünk.</p></article>
+          <article class="process-card"><span class="step-count">02 / 04</span><div class="process-icon" aria-hidden="true"><svg viewBox="0 0 70 70" fill="none"><path d="M18 47a22 22 0 1 1 34 0" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><path d="m35 33 10-11" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><circle cx="35" cy="33" r="3" fill="currentColor"/><path d="M23 55h24" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></svg></div><h3>Profilalkotás</h3><p>Minden tételnek saját pörkölési profilt tervezünk, hogy kihozzuk a legjobb ízjegyeket.</p></article>
+          <article class="process-card"><span class="step-count">03 / 04</span><div class="process-icon" aria-hidden="true"><svg viewBox="0 0 70 70" fill="none"><path d="M35 56c-12-4-19-12-17-23 2-8 10-13 9-22 10 5 12 12 11 18 5-3 7-8 6-12 15 15 13 32-9 39Z" stroke="currentColor" stroke-width="2.8" stroke-linejoin="round"/><path d="M35 54c-6-9-3-14 2-22 5 7 7 14-2 22Z" fill="currentColor" opacity=".4"/></svg></div><h3>Pörkölés</h3><p>Kis adagokban, pontos hőmérséklet- és időkontroll mellett formáljuk a szemek karakterét.</p></article>
+          <article class="process-card"><span class="step-count">04 / 04</span><div class="process-icon" aria-hidden="true"><svg viewBox="0 0 70 70" fill="none"><path d="M22 17h26l4 36H18l4-36Z" stroke="currentColor" stroke-width="2.8" stroke-linejoin="round"/><path d="M26 17v-5h18v5M26 35h18M35 30c-8 10-1 14 0 17 6-8-1-11 0-17Z" stroke="currentColor" stroke-width="2.8" stroke-linejoin="round"/></svg></div><h3>Csomagolás</h3><p>A frissen pörkölt szemeket gondosan csomagoljuk, hogy otthon is élvezhesd az aromákat.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="rolunk" aria-labelledby="about-heading">
+      <div class="container about-layout">
+        <div class="about-art" aria-hidden="true"><div class="about-arc arc-one"></div><div class="about-arc arc-two"></div><div class="about-cup"><span class="cup-steam steam-one"></span><span class="cup-steam steam-two"></span><span class="cup-steam steam-three"></span><div class="cup-rim"></div><div class="cup-body"></div><div class="cup-handle"></div><div class="cup-saucer"></div></div><span class="about-art-text">SLOW<br>DOWN.<br>BREW<br>GOOD.</span><span class="about-art-star">✺</span></div>
+        <div class="about-copy"><p class="eyebrow"><span class="eyebrow-line"></span> TÖBB, MINT EGY REGGELI RUTIN</p><h2 id="about-heading">Egy kis műhely.<br><em>Nagy kávészeretet.</em></h2><p>A Mokka Műhely ötlete egy egyszerű kérdésből született: miért ne lehetne a mindennapi kávé igazán emlékezetes?</p><p>Ezért képzeltünk el egy olyan kávépörkölő manufaktúrát, ahol a minőség fontosabb a mennyiségnél, a pörkölés pedig nem futószalag, hanem alkotómunka.</p><div class="about-signature"><span class="signature-mark">m.</span><span><strong>Kicsiben gondolkodunk.</strong><small>Hogy minden csésze nagy élmény legyen.</small></span></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="kapcsolat" aria-labelledby="contact-heading">
+      <div class="container contact-layout">
+        <div class="contact-copy"><p class="eyebrow"><span class="eyebrow-line"></span> BESZÉLGESSÜNK A KÁVÉRÓL</p><h2 id="contact-heading">Van egy <em>jó kérdésed?</em></h2><p>Szívesen segítünk eligazodni az ízek és pörkölési profilok között. Írj nekünk egy üzenetet!</p><div class="contact-info"><span class="contact-info-icon" aria-hidden="true">✉</span><div><strong>Üzenj nekünk!</strong><span>Az űrlap demonstrációs célra készült.</span></div></div><div class="contact-decoration" aria-hidden="true">✳ GOOD COFFEE, GOOD PEOPLE.</div></div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-heading"><h3>Írj egy üzenetet</h3><p>Minden jó beszélgetés egy hellóval kezdődik.</p></div>
+          <div class="form-row"><div class="form-field"><label for="contact-name">Neved <span>*</span></label><input id="contact-name" name="name" type="text" minlength="2" maxlength="80" autocomplete="name" placeholder="Hogyan szólíthatunk?" required></div><div class="form-field"><label for="contact-email">E-mail címed <span>*</span></label><input id="contact-email" name="email" type="email" maxlength="120" autocomplete="email" placeholder="pelda@email.hu" required></div></div>
+          <div class="form-field"><label for="contact-topic">Miben segíthetünk?</label><select id="contact-topic" name="topic"><option value="Kávéválasztás">Kávéválasztás</option><option value="Pörkölés">Pörkölés</option><option value="Egyéb kérdés">Egyéb kérdés</option></select></div>
+          <div class="form-field"><label for="contact-message">Üzeneted <span>*</span></label><textarea id="contact-message" name="message" rows="4" minlength="10" maxlength="1000" placeholder="Meséld el, mire vagy kíváncsi..." required></textarea></div>
+          <button class="button button-dark" type="submit">Üzenet ellenőrzése <span aria-hidden="true">↗</span></button>
+          <p class="form-footnote">Ez egy egyetemi projekt demóoldala: az űrlap ellenőrzi az adatokat, de nem küldi el és nem tárolja őket.</p>
+          <div id="form-feedback" class="form-feedback" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-main"><div><a class="footer-brand" href="#kezdolap">mokka<span>műhely.</span></a><p>Gondosan pörkölt ötletek.<br>Minden csészében.</p></div><nav aria-label="Lábléc navigáció"><a href="#kaveink">Kávéink</a><a href="#folyamat">A pörkölés</a><a href="#rolunk">Rólunk</a><a href="#kapcsolat">Kapcsolat</a></nav><div class="footer-signoff">KÖSZÖNJÜK, HOGY BENÉZTÉL! <span aria-hidden="true">↗</span></div></div><div class="footer-bottom"><span>© <span id="current-year">2026</span> Mokka Műhely.</span><span>Egyetemi mintaprojekt • Fiktív márka és termékek • HTML / CSS / JavaScript</span><a href="#fejlec">Vissza az elejére ↑</a></div></div></footer>
+
+  <div class="cart-backdrop" id="cart-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-heading" aria-hidden="true" tabindex="-1">
+    <div class="cart-header"><div><span class="cart-eyebrow">A TE KÁVÉID</span><h2 id="cart-heading">Kosarad</h2></div><button type="button" class="cart-close" id="cart-close" aria-label="Kosár bezárása">×</button></div>
+    <div class="cart-items" id="cart-items" aria-live="polite"></div>
+    <div class="cart-footer"><div class="cart-total"><span>Összesen</span><strong id="cart-total">0 Ft</strong></div><button type="button" class="button button-dark checkout-button" id="checkout-button">Megrendelés (demó) <span aria-hidden="true">↗</span></button><p>Bemutató kosár: valódi rendelés és fizetés nem történik.</p><p class="checkout-message" id="checkout-message" hidden></p></div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><div class="noscript-note">A kávészűrés, az ajánló és a kosár JavaScript használatát igényli. A weboldal tartalma enélkül is olvasható.</div></noscript>
+</body>
+</html>
